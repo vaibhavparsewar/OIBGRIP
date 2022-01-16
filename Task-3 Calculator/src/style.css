@@ -1,0 +1,117 @@
+body{
+    background-color:slategrey;
+    
+
+/* 
+    margin:0;
+    padding:0;
+    display:flex;
+    justify-content: center;
+    align-items:center;
+    min-height: 100vh;
+    background-color: #060c21; */
+
+}
+.clear {
+    width:130px;
+    border:3px outset yellowgreen;
+    border-radius:30px;
+    /* box-shadow: 5px 5px 10px yellowgreen , -5px -5px 10px cyan; */
+
+}
+h2 {
+    color:white;
+    background: linear-gradient(235deg,rgba(86, 255, 80, 0.445),#060c21,#00bbd47c); 
+    border-radius: 17px;
+
+}
+
+.vaiform {
+    width: 300px;
+    height: 400px;
+
+    box-shadow: 5px 5px 10px greenyellow, -5px -5px 80px black;
+  
+    border:5px solid greenyellow;
+    border-radius: 50px;
+    margin:auto;  
+
+    background-color:black;
+    text-align: center;
+    background-image: url("../src/images/sh.jpg");
+    /* background-position: bottom left; */
+    background-size:cover;
+    background-repeat: no-repeat;
+    /* background: linear-gradient(235deg,#0e51538a,rgba(60, 250, 12, 0.205)); */
+   
+}
+
+
+
+input {
+    width: 40px;
+    font-weight:bold;
+  
+    background-color: transparent;
+    /* text-shadow: 10px 2px 20px ; */
+    border:2px solid darkslategrey;
+    margin:3.5px;
+    color:whitesmoke;
+    box-shadow: 2px 2px 5px grey ,-1px -1px 2px whitesmoke;
+    /* background: linear-gradient(235deg,black,grey,black); */
+    
+}
+input:hover{
+    background: linear-gradient(235deg,rgb(62, 143, 119),black);
+}
+
+#screen{
+    width:200px;
+    color:gainsboro;
+    border:6px groove yellowgreen;
+    border-radius:30px;
+    box-shadow: 5px 5px 10px yellowgreen , -5px -5px 10px cyan;
+}
+
+
+/* .vaiform{
+    position:relative;
+    display:flex;
+    width: 300px;
+    height: 400px;
+    background:#060c21;
+    justify-content: center;
+    align-items: center;
+}
+
+.vaiform:before{
+    content:"";
+    top:-2px;
+    left:-2px;
+    right:-2px;
+    position:absolute;
+    background:#fff;
+    z-index: -1;
+}
+
+.vaiform:after{
+    content:"";
+    top:-2px;
+    left:-2px;
+    right:-2px;
+    position:absolute;
+    background:#fff;
+    z-index: -2;
+    filter:blur(40px);
+}
+
+.box:before,
+.box:after{
+    background: linear-gradient(235deg,#89ff00,#060c21,#00bcd4)
+}
+
+.forms{
+    padding:20px;
+    box-sizing: border-box;
+    color:#fff;
+} */
